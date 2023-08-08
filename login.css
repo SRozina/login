@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./IMAGE/wp5063342-netflix-logo-wallpapers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: rgba(235, 224, 224, 0.36);
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+}
+label ,input, button,a{
+    display: block;
+    margin-bottom: 10px;
+} 
+form h1{
+    text-align: center;
+    font-size: 35px;
+}
+input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+color: black;
+background-color: whitesmoke;
+}
+button{
+
+    width: 25%;
+    height: 35px;
+    background-color: beige;
+    border-radius: 5px;
+    border: none;
+    min-width: 30%;
+}
+#button{
+    display: flex;
+    justify-content: space-around;
+}
+#can{
+    background-color: thistle;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: aliceblue;
+}
+#user::placeholder{
+    color: gray;
+}
+#pass::placeholder{
+    color: grey;
+}
